@@ -10,26 +10,26 @@ SpamTime = 10
 local Window = Rayfield:CreateWindow({
    Name = "Fake Tags",
    LoadingTitle = "Tags Hub",
-   LoadingSubtitle = "by Egorikusa",
+   LoadingSubtitle = "by Darius",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = "Egorikusa Scripts", -- Create a custom folder for your hub/game
-      FileName = "Egorikusa Tags"
+      FolderName = "Darius Scripts", -- Create a custom folder for your hub/game
+      FileName = "Darius Tags"
    },
    Discord = {
       Enabled = true,
-      Invite = "Qg9SBjXExx",
+      Invite = "gBwFS23xdT",
       RememberJoins = false
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "Fake Tags",
       Subtitle = "Key System",
-      Note = "Join the discord https://discord.gg/Qg9SBjXExx",
+      Note = "Join the discord https://discord.gg/gBwFS23xdT",
       FileName = "KeyOfTags",
       SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "a"
+      Key = "darius"
    }
 })
 
